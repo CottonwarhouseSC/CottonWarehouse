@@ -1,39 +1,29 @@
-/*/
-  Services
   /*/
-
-  .services {
-    text-align: center;
-    padding: 20px 0;
+  sc footer
+  /*/
+  .sc-footer {
+    text-align: right;
+    font-size: 12px;
+    color: #555;
+    padding-top: 10px;
+    margin-top: 20px;
 }
 
-.services h3 {
-    margin-bottom: 20px;
-    color: #343a40;
-    font-size: 28px;
-    font-weight: 700;
-    text-transform: uppercase;
+.sc-footer a {
+    color: #024C30;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
 }
 
-.services ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.sc-footer a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
 
-.services li {
-    background-color: #007bff;
-    color: #ffffff;
-    margin: 10px;
-    padding: 15px 30px;
-    border-radius: 30px;
-    font-size: 18px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.services li:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
+.sc-footer a:hover {
+    color: #0056b3;
 }
 
 
